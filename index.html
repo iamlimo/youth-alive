@@ -14,6 +14,8 @@
  	<link href="https://fonts.googleapis.com/css?family=Amatic+SC|Handlee|Indie+Flower" rel="stylesheet">
  	<link href="https://fonts.googleapis.com/css?family=Exo+2|Noto+Sans|PT+Serif|Roboto|Lemonada|Sirin+Stencil" rel="stylesheet">
 
+ 	<script src="http://jschr.github.io/textillate/assets/jquery.lettering.js"></script>
+ 	<script type="text/javascript" src="http://jschr.github.io/textillate/jquery.textillate.js"></script>
 
     <link rel="stylesheet" type="text/css" href="css/style.css">
 
@@ -22,7 +24,9 @@
 	<title>Super Teens</title>
 </head>
 <body onload="loadPage()">
-<div id="loader"></div>
+<div id="loader">
+	<h2 class="textAnime">The Generation That Seeks God</h2>
+</div>
 <div class="" id="bodyContent">
 <div id="notifyMe"> Sambada</div>
 <navheader>
@@ -222,7 +226,7 @@
 <script>
 var loadIt;
 	function loadPage(){
-		loadIt = setTimeout( displayPage, 1000)
+		loadIt = setTimeout( displayPage, 3000)
 	};
 
 	function displayPage(){
@@ -231,8 +235,14 @@ var loadIt;
 	}
 
 </script>
+
+<script>
+	$('.textAnime')
+</script>
 <!-- jQuery-->
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+
+
 <!-- font Awesome-->
 <script src="https://use.fontawesome.com/e80b422818.js"></script>
 </body>
